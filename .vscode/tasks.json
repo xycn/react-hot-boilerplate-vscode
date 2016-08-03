@@ -13,6 +13,8 @@
 	"suppressTaskName": true,
 	"showOutput": "always",
 	"tasks": [
+		//这里的task就是launch.json中preLaunchTask字段对应的值，在vscode启动调试的时候，先执行这里的任务，
+		//taskname指定任务名以供launch.json对应调用。这里的taskname是development
 		{
 			"args": [
 				"run",
